@@ -9,22 +9,22 @@
 </head>
 <body>
     <h1>بازی سنگ کاغذ قیچی</h1><hr/>
-    <!-- add image  -->
+    
     <div class="main">
         <div class="yourChoose">
-            <div><img src="./image/paper.jpeg"></div>
-            <div><img src="./image/rock.jpeg"></div>
-            <div><img src="./image/scissors.jpeg"></div>
+            <div><p class="p-yourChoose">کاغذ</p><img src="./image/paper.jpeg" class="paper"></div>
+            <div><p class="p-yourChoose">سنگ</p><img src="./image/rock.jpeg" class="rock"></div>
+            <div><p class="p-yourChoose">قیچی</p><img src="./image/scissors.jpeg" class="scissors"></div>
         </div>
         <div class="pcChoose">
-            <div class="display" ><img src="./image/paper.jpeg"></div>
-            <div class="display" ><img src="./image/rock.jpeg"></div>
-            <div class="display" ><img src="./image/scissors.jpeg"></div>
+            <div class="display paper" ><p class="p-pcChoose">کاغذ</p><img src="./image/paper.jpeg" ></div>
+            <div class="display rock" ><p class="p-pcChoose">سنگ</p><img src="./image/rock.jpeg" ></div>
+            <div class="display scissors" ><p class="p-pcChoose">قیچی</p><img src="./image/scissors.jpeg" ></div>
         </div>
     </div>
     <div class="score">
-        <p>امتیاز شما : <span class="red">۰</span></p>
-        <p>امتیاز کامپیوتر : <span class="red">۰</span></p>
+        <p>امتیاز شما : <span class="scoreyou red">0</span></p>
+        <p>امتیاز کامپیوتر : <span class="scorepc red">0</span></p>
     </div>
     <script src="./javascript/game.js"></script>
 </body>
